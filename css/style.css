@@ -36,14 +36,15 @@ p{
 .top-menu ul li a{
 	color:#FFFFFF;
 	text-decoration:none;
-	font-size:15px;
+	font-size:11px;
 	display:block;
-	padding:0.5em 1em;
+	padding:3em 1em;
 	font-weight:900;
 }	
 .top-menu ul li a:hover {
-	background: #FF3D4E;
-	color:#FFFFFF;
+	border-radius: 20px;
+	background: #e2cfd1;
+	color:#010101;
 }
 .header-top {
 	border-bottom: 120px solid #380553;
@@ -106,9 +107,7 @@ p{
 	font-weight:500;
 }
 /***** Slider *****/
-.banner-wrap {
-	padding:6em 0;
-}
+
 .wmuSlider {
 	position: relative;
 	overflow: hidden;
@@ -176,15 +175,19 @@ span.bold {
 	font-weight: 900;
 	font-size: 1.3em;
 }
+.banner-l {
+ font-size: large;
+}
+
 
 .banner_right {
 	float: right;
-	width: 45%;
+	width: 30%;
 	padding-right: 6em;
 }
 .banner_right h1{
 	color:#fff51f;
-	font-size:4em;
+	font-size:1em;
 	font-weight:bold;
 	line-height: 0.9em;
 }
@@ -944,9 +947,7 @@ span.more a:hover{
 	.submit {
 		margin: 2em 0;
 	}
-	.banner-wrap {
-		padding: 4em 0;
-	}
+	
 	.wmuSliderPagination{
 		bottom: 7px;
 	}
@@ -966,9 +967,7 @@ span.more a:hover{
 		margin-top: 0.5em;
 		padding: 1em 0;
 	}
-	.banner-wrap {
-		padding: 2em 0 4em 0;
-	}
+
 	.bannertop_box h1 {
 		font-size: 1.8em;
 	}
